@@ -26,7 +26,7 @@
 
 5. => Methods of list and array:
    * append(): add values at the end of list.
-   * pop()   : remove last value of list if pop() is empty, else removing the specified value.
+   * pop()   : remove last value of list if pop() is empty, else removing the specified index.
    * insert(): add values in list.
    * remove(): removing the specified value.
    * index() : To find index of particular number
