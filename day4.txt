@@ -1,0 +1,37 @@
+
+1. Variable names and convention. Things to consider in declaring a variable?
+2. What is (strings method) immutable and mutable. Advantages of immutable and mutable. Why to use them?
+3. What is list?
+4. What is heterogeneous datatype and homogeneous datatype and it uses in list?
+5. what are list methods?
+
+1. => variable is a container for storing values. It should only starts with underscore or alphabet not numbers or characters.
+   If it start with number it gives syntax error: invalid decimal literal and if you use character syntax error: invalid syntax.
+   declaring a variable should depends on type of values or operations done in values.
+
+2. =>Immutable : the thing which is unchangable is called immutable
+     mutable   : the thing which is changable is called mutable
+   =>Advantages :
+     Immutables are designed to stop this deadlock situations (when two person tried to access same object at same time) (then access 
+     denied for both. immutable data type provide security for data in it, by not changing the value.
+     ex : milk mixed with water, cake
+     Mutable : changing data frequently.
+     ex :  items in refridgerator can be replacable.
+
+3. => heterogeneous datatype : different datatype are used in single collection.ex:-list
+   => homogeneous datatype   : same datatype are used in single collection.ex:-array
+
+4. =>list in python : list is a collection of values which can contains heterogeneous data type and can modify the values.
+   =>array in python : array is a data structures used to store collection of same data type(homogeneous data type).
+
+5. => Methods of list and array:
+   * append(): add values at the end of list.
+   * pop()   : remove last value of list if pop() is empty, else removing the specified value.
+   * insert(): add values in list.
+   * remove(): removing the specified value.
+   * index() : To find index of particular number
+   * count() : To find count of particular number specified in count()
+   * extend(): concatinates to lists.
+   * reverse(): reverse the order of a list.
+   * sort()   : sort's a list.
+    
