@@ -5,14 +5,16 @@
 4. What is heterogeneous datatype and homogeneous datatype and it uses in list?
 5. what are list methods?
 
-1. => variable is a container for storing values. It should only starts with underscore or alphabet not numbers or characters.
-   If it start with number it gives syntax error: invalid decimal literal and if you use character syntax error: invalid syntax.
+1. => variable is a container for storing values. 
+   => It should only starts with underscore or alphabet not numbers or characters.
+   => If it start with number it gives syntax error: invalid decimal literal and 
+   =>if you use character syntax error: invalid syntax.
    declaring a variable should depends on type of values or operations done in values.
 
 2. =>Immutable : the thing which is unchangable is called immutable
      mutable   : the thing which is changable is called mutable
    =>Advantages :
-     Immutables are designed to stop this deadlock situations (when two person tried to access same object at same time) (then access 
+     Immutables are designed to face the deadlock situations (when two person tried to access same object at same time) (then access 
      denied for both. immutable data type provide security for data in it, by not changing the value.
      ex : milk mixed with water, cake
      Mutable : changing data frequently.
