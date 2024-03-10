@@ -28,12 +28,12 @@
 
 5. => Methods of list and array:
    * append(): add values at the end of list.
-   * pop()   : remove last value of list if pop() is empty, else removing the specified index.
+   * pop()   : remove last value of list if pop() is empty, else removing the specified index value.
    * insert(): add values in list.
    * remove(): removing the specified value.
    * index() : To find index of particular number
    * count() : To find count of particular number specified in count()
-   * extend(): concatinates to lists.
+   * extend(): concatenates to lists.
    * reverse(): reverse the order of a list.
    * sort()   : sort's a list.
     
